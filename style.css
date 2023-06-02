@@ -105,8 +105,8 @@ h1{
 
 .people img{
     width: 100%;
-    position: relative;
-    top: 20px;
+   
+  
   
 }
 /* js end */
@@ -133,9 +133,7 @@ h1{
     width: 40%;
   }
   .test{
-    display: flex;
-   
-    justify-content: center;
+  display:flex ;
     position: relative;
     width: 90%;
     left: 70px; 
@@ -213,16 +211,10 @@ footer{
       left: 20px;
     }
   
-    .people,
+  
   
    
-    .test {
-      width: 45%;
-      font-size: xx-small;
-      display: grid;
-      margin-bottom: 5%;
-    
-    }
+  
   
     hr {
       right: 5%;
@@ -238,6 +230,14 @@ footer{
       font-size: xx-small;
       display: grid;
       width: 95%;
+    }
+
+    .test {
+      width: 45%;
+      font-size: xx-small;
+      display: grid;
+    
+    
     }
     #text{
       position: relative;
