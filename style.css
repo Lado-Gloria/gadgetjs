@@ -206,10 +206,7 @@ footer{
      
     }
   
-    #products {
-       font-size: xx-small;
-      left: 20px;
-    }
+  
   
   
   
@@ -239,6 +236,10 @@ footer{
     
     
     }
+    #products {
+      font-size: xx-small;
+     left: 20px;
+   }
     #text{
       position: relative;
       left: 1px;
