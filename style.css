@@ -1,0 +1,285 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    width: auto;
+    color: rgb(60, 57, 57);
+    background-color: rgb(222, 222, 236);
+
+}
+.nav{
+   background-color: black;
+   display: flex;
+  justify-content: space-evenly;
+   height: 80px;
+ 
+ 
+color: aliceblue;
+
+   
+}
+#up{
+    height: 40px;
+    width: 10%;
+    color: rgb(13, 13, 14);
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#get{
+    color: yellow;
+}
+
+
+
+
+.your{
+    display: flex;
+    background-color: rgb(209,195,230);
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+    left: 50px;
+
+}
+input{
+    width: 44.5%;
+    height: 40px;
+    border: 4px;
+    position: relative;
+    left: 50px;
+    border-radius: 5px;
+    background-color: rgb(248, 244, 239);
+   
+}
+h1{
+    font-size: 3.5em;
+}
+#order{
+    height: 40px;
+    width: 20%;
+    border: none;
+    
+
+}
+
+
+
+
+.game{
+    justify-content: center;
+    position: relative;
+    left: 30px; 
+    top: 60px;
+   
+}
+.game img {
+    margin: 15px; 
+    border-radius: 10px;
+  }
+
+/* js */
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 80px;
+   
+
+}
+.people{
+    border: solid rgb(225, 217, 217);
+    background-color: rgb(242, 242, 235);
+ 
+    width: 20%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.people img{
+    width: 100%;
+    position: relative;
+    top: 20px;
+  
+}
+/* js end */
+
+  .new{
+    justify-content: center;
+    position: relative;
+     left: 5%;
+    top: 60px;
+  }
+  .new img{
+    margin: 15px
+  }
+  .next{
+    display: flex;
+    background-color:rgb(209,195,230) ;
+    justify-content: center;
+    position: relative;
+    width: 90%;
+    left: 70px; 
+    top: 60px;
+  }
+  .next img{
+    width: 40%;
+  }
+  .test{
+    display: flex;
+   
+    justify-content: center;
+    position: relative;
+    width: 90%;
+    left: 70px; 
+    top: 60px;
+  }
+.test img{
+  background-color: rgb(221, 221, 217);
+  width: 60%;
+  border-radius: 10px;
+  position: relative;
+  left: 20%;
+  top: 180px;
+}
+hr{
+  position: relative;
+  top: 200px;
+ right: 20%;
+  height: 1px;
+background-color: yellow;
+}
+#quot{
+  position: relative;
+  left: 55%;
+  bottom: 180px;
+  
+}
+.sub{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 80px;
+}
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  background-color: black;
+  color: aliceblue;
+  top: 100px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Styles for tablets */
+    .your {
+      left: 20px;
+      width: 95%;
+     
+    }
+   #one{
+    width: 300px;
+   
+
+   }
+   footer{
+    font-size: xx-small;
+   }
+   
+  
+    }
+    .boby{
+        width: auto;
+        overflow-x: hidden;
+
+    }
+  
+    input {
+      width: 90%;
+      left: 20px;
+     
+    }
+  
+    #products {
+       
+      left: 20px;
+    }
+  
+    .people,
+  
+   
+    .test {
+      width: 45%;
+      font-size: xx-small;
+      display: grid;
+      margin-bottom: 5%;
+    
+    }
+  
+    hr {
+      right: 5%;
+     
+    }
+  
+  
+  @media (max-width: 480px) {
+    /* Styles for phones */
+    .your {
+      
+      left: 10px;
+      font-size: xx-small;
+      display: grid;
+      width: 95%;
+    }
+    #text{
+      position: relative;
+      left: 1px;
+    }
+    .next{
+        font-size:xx-small;
+        display: grid;
+        position: relative;
+        left: 15px;
+      
+        
+    }
+    .next img{
+        width: 60%;
+        height: 60%;
+    }
+  
+    input {
+      width: 90%;
+      left: 10px;
+     
+    }
+  
+    .game img,
+    .people img,
+    .new img,
+    .next img{
+      width: 80%;
+     
+    }
+  
+    .sub {
+      flex-direction: column;
+     
+    }
+  
+    hr {
+      right: 10%;
+     
+    }
+  }
+
+
+
