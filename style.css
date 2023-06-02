@@ -188,23 +188,25 @@ footer{
    
 
    }
+   input {
+    width: 90%;
+    left: 20px;
+   
+  }
    footer{
     font-size: xx-small;
    }
+   .boby{
+    width: auto;
+    overflow-x: hidden;
+
+}
    
   
     }
-    .boby{
-        width: auto;
-        overflow-x: hidden;
-
-    }
   
-    input {
-      width: 90%;
-      left: 20px;
-     
-    }
+  
+  
   
   
   
